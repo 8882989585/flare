@@ -1,0 +1,59 @@
+# .gitignore
+# sbt
+project/project
+project/project/target
+project/target/
+.history
+.bsp
+
+# Java
+*.class
+
+# Logs
+*.log
+log/
+logs/
+
+# Temporary files
+*~
+*.bak
+*.old
+*.tmp
+nohup.out
+tmp/
+
+# vim
+.*.sw[a-z]
+
+# IntelliJ
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.cache
+.classpath
+.project
+.scala_dependencies
+.settings/
+*.sc
+
+# Ensime
+.ensime
+.ensime_cache/
+
+# Mac OS X
+._*
+.DS_Store
+
+# Windows
+Desktop.ini
+Thumbs.db
+
+# Test output directory
+test/
+src/main/temp
+/spark-warehouse/
+/temp/
